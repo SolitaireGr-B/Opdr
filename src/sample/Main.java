@@ -74,20 +74,22 @@ public class Main extends Application {
         int turn = 1;
         int nextT = 0;
 
-        for(turn == 1) {
+        for(turn == 1; nextT == 1) {
 
-            vakje.add(selectedV, "x");
-            for(nextT == 1) {
+
+                vakje.add(selectedV, "x");
                 turn++;
                 nextT = 0;
-            }
+
 
         }
 
-        for(turn == 2) {
-            vakje.add(selectedV, "x");
-            turn--;
-            nextT = 0;
+        for(turn == 2; nextT == 1) {
+
+
+                vakje.add(selectedV, "x");
+                turn--;
+                nextT = 0;
         }
     }
 
