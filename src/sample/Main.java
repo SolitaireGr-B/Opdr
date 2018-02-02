@@ -9,6 +9,7 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import javax.swing.*;
+import java.util.ArrayList;
 
 public class Main extends Application {
 
@@ -41,7 +42,9 @@ public class Main extends Application {
         panel.add(new JTextArea(""));
         panel.add(new JTextArea(""));
         panel.add(new JTextArea(""));
-        panel.add(new JButton("Gutentag, press me!", ));
+        panel.add(new JButton("<"));
+        panel.add(new JButton("OK"));
+        panel.add(new JButton(">"));
                 swingNode.setContent(panel);
             }
         });
@@ -51,6 +54,41 @@ public class Main extends Application {
         launch(args);
 
 
+
+        ArrayList<String> vakje = new ArrayList<>();
+
+        String team1 = "x";
+        String team2 = "o";
+
+        vakje.add(1,"");
+        vakje.add(2,"");
+        vakje.add(3,"");
+        vakje.add(4,"");
+        vakje.add(5,"");
+        vakje.add(6,"");
+        vakje.add(7,"");
+        vakje.add(8,"");
+        vakje.add(9,"");
+
+        int selectedV = 1;
+        int turn = 1;
+        int nextT = 0;
+
+        for(turn == 1) {
+
+            vakje.add(selectedV, "x");
+            for(nextT == 1) {
+                turn++;
+                nextT = 0;
+            }
+
+        }
+
+        for(turn == 2) {
+            vakje.add(selectedV, "x");
+            turn--;
+            nextT = 0;
+        }
     }
 
 
