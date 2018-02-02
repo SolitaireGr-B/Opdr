@@ -2,8 +2,6 @@ package sample;
 
 import javafx.application.Application;
 import javafx.embed.swing.SwingNode;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
@@ -38,6 +36,8 @@ public class Main extends Application {
             public void run() {
                 JPanel panel = new JPanel();
                 JTextArea ta = new JTextArea(100, 100);
+                bke BKE = new bke();
+                BKE.VA1("v");
         panel.add(new JTextArea(""));
         panel.add(new JTextArea(""));
         panel.add(new JTextArea(""));
@@ -73,8 +73,8 @@ public class Main extends Application {
         int selectedV = 1;
         int turn = 1;
         int nextT = 0;
-
-        for(turn == 1; nextT == 1) {
+/*
+        for(turn == 1; nextT = 1) {
 
 
                 vakje.add(selectedV, team1);
@@ -84,13 +84,13 @@ public class Main extends Application {
 
         }
 
-        for(turn == 2; nextT == 1) {
+        for(turn == 2; nextT = 1) {
 
 
                 vakje.add(selectedV, team2);
                 turn--;
                 nextT = 0;
-        }
+        }*/
     }
 
 
