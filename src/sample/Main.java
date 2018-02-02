@@ -77,7 +77,7 @@ public class Main extends Application {
         for(turn == 1; nextT == 1) {
 
 
-                vakje.add(selectedV, "x");
+                vakje.add(selectedV, team1);
                 turn++;
                 nextT = 0;
 
@@ -87,7 +87,7 @@ public class Main extends Application {
         for(turn == 2; nextT == 1) {
 
 
-                vakje.add(selectedV, "x");
+                vakje.add(selectedV, team2);
                 turn--;
                 nextT = 0;
         }
